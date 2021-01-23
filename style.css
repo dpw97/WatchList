@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   background-color:#363946;
+   font-family: fantasy;
+}
+
+#textContent {
+    text-align: center;
+    color: #819595;
+}
+#watchList { 
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    
+}
+#inputBtn {
+    text-align:center;
+    padding: 5px;
+}
+#btn {
+    
+    padding: 10px;
+    border-radius:12px;
+    background-color: #B1B6A6;
+    
+}
+#userInput {
+    padding: 10px;
+    margin: 5px;
+    border-radius:8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+}
+.movie {
+    height: 340px;
+    background-color: #696773;
+    border-radius: 18px;
+    
+    color:#B1B6A6;
+    text-align: center;  
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+}
+.movieImage {
+    
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    border-radius: 18px;
+}
